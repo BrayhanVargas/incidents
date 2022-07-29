@@ -1,0 +1,35 @@
+.container {
+  box-shadow: 5px 5px 15px 10px var(--shadow);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.filter {
+  background-color: var(--primary-3);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+  height: 2rem;
+  align-items: center;
+}
+.headers {
+  display: grid;
+  grid-template-columns: 200px repeat(3, 120px) 140px 260px 60px;
+  margin: 1rem 0 !important;
+  color: var(--primary-subtitle) !important;
+}
+.incidents {
+  display: grid;
+  grid-template-columns: 200px repeat(3, 120px) 140px 260px 30px 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.incident {
+  margin-bottom: 1rem !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+.container {
+  padding: 3rem 6rem 0 6rem;
+  width: 100%;
+}
+.container_title {
+  display: flex;
+  margin-bottom: 1rem !important;
+}
+.title {
+  color: var(--primary-title);
+}
+.new_incident {
+  width: 100%;
+  display: flex;
+}
+.new_incident_text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

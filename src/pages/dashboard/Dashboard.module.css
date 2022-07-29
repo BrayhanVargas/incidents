@@ -1,0 +1,18 @@
+.container {
+  padding: 3rem 6rem 0 6rem;
+  width: 100%;
+}
+.container_title {
+  margin-bottom: 1rem;
+  color: var(--primary-title);
+}
+.bar_charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.container_plans {
+  margin-bottom: 1rem;
+}

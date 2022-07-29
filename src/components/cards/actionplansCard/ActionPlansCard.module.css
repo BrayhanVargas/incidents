@@ -1,0 +1,13 @@
+.plans {
+  width: 15%;
+  box-shadow: 5px 5px 15px var(--shadow);
+}
+
+.title {
+  margin-bottom: 1rem !important;
+  color: var(--primary-title) !important;
+}
+.subtitle {
+  color: var(--primary-subtitle) !important;
+  margin-bottom: 1rem !important;
+}
